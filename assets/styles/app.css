@@ -1,0 +1,21 @@
+body {
+    font-size: 2rem;
+
+}
+
+#content {
+    font-size: 1rem;
+    background-color: gainsboro;
+}
+
+@media print {
+    body * {
+        display: none;
+    }
+
+    #content,
+    #content * {
+        display: block;
+
+    }
+}
